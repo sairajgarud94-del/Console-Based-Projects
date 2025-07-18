@@ -1,1 +1,8 @@
+This project is a multi-user console-based private chat application developed using Java sockets for 
+real-time communication and MySQL JDBC for storing chat messages. The application facilitates 
+direct messaging between users in a terminal-based interface. It is designed to be lightweight, 
+easy to use, and fully functional from the command line without any GUI.
 
+The server is multithreaded, allowing it to handle multiple clients simultaneously. 
+Each client can view the list of online users and initiate a private chat with another user. 
+All sent messages are persisted in a MySQL database for logging and historical reference.
