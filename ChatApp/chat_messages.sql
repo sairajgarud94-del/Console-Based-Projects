@@ -1,0 +1,10 @@
+
+CREATE DATABASE IF NOT EXISTS chatdb;
+USE chatdb;
+
+CREATE TABLE IF NOT EXISTS messages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    message TEXT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
